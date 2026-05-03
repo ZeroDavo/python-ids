@@ -126,14 +126,14 @@ Both VMs share a **Host-Only** VirtualBox network — completely isolated from t
 
 ```bash
 # Clone the repository
-git clone https://github.com/zerodavo/python-ids.git
+git clone https://github.com/ZeroDavo/python-ids.git
 cd python-ids
 
 # Create a virtual environment
 python3 -m venv ids-env
 
 # Activate it
-source ids-env/activate
+source ids-env/bin/activate
 
 # Install dependencies
 pip install scapy
@@ -375,7 +375,7 @@ cat ids_alerts.log | wc -l
 - [ ] Time-window based counters — reset trackers every N seconds for ongoing detection
 - [ ] Email / Slack alerting — real-time notifications on critical alerts
 - [ ] External blacklist loading — ingest threat intel feeds from file on startup
-- [ ] Wazuh SIEM integration — forward alerts to a centralized dashboard ← **Next**
+- [x] ~~Wazuh SIEM integration~~ ✅ Completed — alerts flow from IDS → Wazuh agent → dashboard in real time
 
 ---
 
@@ -387,9 +387,9 @@ This tool is intended for **educational purposes and authorized security testing
 
 ## Author
 
-**Davo**
-- GitHub: [@ZeroDavo](https://github.com/zerodavo)
-
+**ZeroDavo**
+- GitHub: [@ZeroDavo](https://github.com/ZeroDavo)
 
 ---
 
+*Built as a portfolio project while completing the QuickStart Cybersecurity Bootcamp and earning CompTIA Security+ certification. Nine detection rules. Nine verified.*
