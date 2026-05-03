@@ -392,4 +392,4 @@ This tool is intended for **educational purposes and authorized security testing
 
 ---
 
-*Built as a portfolio project while completing the QuickStart Cybersecurity Bootcamp and earning CompTIA Security+ certification. Nine detection rules. Nine verified.*
+*Nine detection rules. Nine verified.*
